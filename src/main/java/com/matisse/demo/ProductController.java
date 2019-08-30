@@ -40,8 +40,5 @@ public class ProductController {
     }
 
 
-    @DeleteMapping
-    public void deleteAll() {
-        productService.deleteAll();
-    }
+
 }
